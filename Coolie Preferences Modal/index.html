@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cookie Modal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -24,30 +30,49 @@
       <h2>Manage Consent Preferences</h2>
       <ul>
         <li>
-          <img src="#" alt="plus-icon" />
-          <p>Strictly Necessary Cookies</p>
-          <span>Always Active</span>
+          <div class="left-flex-container">
+            <img src="./icons/plus.png" alt="plus-icon" />
+            <p>Strictly Necessary Cookies</p>
+          </div>
+          <div class="right-flex-container">
+            <span>Always Active</span>
+          </div>
         </li>
         <li>
-          <img src="#" alt="plus-icon" />
-          <p>Functional Cookies</p>
-          <span class="light-button"></span>
-          <span class="dark-circle"></span>
+          <div class="left-flex-container">
+            <img src="./icons/plus.png" alt="plus-icon" />
+            <p>Functional Cookies</p>
+          </div>
+          <div class="right-flex-container">
+            <span class="light-button">
+              <span class="dark-circle"></span>
+            </span>
+          </div>
         </li>
         <li>
-          <img src="#" alt="plus-icon" />
-          <p>Performance Cookies</p>
-          <span class="dark-button"></span>
-          <span class="light-circle"></span>
+          <div class="left-flex-container">
+            <img src="./icons/plus.png" alt="plus-icon" />
+            <p>Performance Cookies</p>
+          </div>
+          <div class="right-flex-container">
+            <span class="dark-button">
+              <span class="light-circle"></span>
+            </span>
+          </div>
         </li>
         <li>
-          <img src="#" alt="plus-icon" />
-          <p>
-            Personalised ads and content measurement, audience insights and
-            product development
-          </p>
-          <span class="light-button"></span>
-          <span class="dark-circle"></span>
+          <div class="left-flex-container">
+            <img src="./icons/plus.png" alt="plus-icon" />
+            <p>
+              Personalised ads and content measurement, audience insights and
+              product development
+            </p>
+          </div>
+          <div class="right-flex-container">
+            <span class="light-button">
+              <span class="dark-circle"></span>
+            </span>
+          </div>
         </li>
       </ul>
       <a href="#">Reject all</a>
