@@ -63,6 +63,9 @@ body {
   display: flex;
   padding-left: 5%;
 }
+.modal-container > ul > li span:hover {
+  cursor: pointer;
+}
 .modal-container > ul > li:last-child {
   border: 1px solid #d2d9ef;
   border-radius: 5px;
